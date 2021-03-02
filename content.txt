@@ -1,0 +1,42 @@
+Header : Home CV EN/FR
+Footer : Contact: <adresse tsp>
+
+=== Pages ==
+
+Home page :
+- Presentation (lien CV)
+- Mes réalisations : rubriques
+
+=== Rubriques ==
+3 lignes avec 3 rubriques
+
+Projets scolaires :
+- learn by play
+- projet info
+- projet cassiopée
+
+
+Projets persos :
+
+Teaching game design :
+- présentation du CELL
+- formations en game design au CELL
+-> lien vers escape games
+- mention jeu de plateau
+-> lien vers game jams
+
+Escapes Games :
+- escape games avec photos
+
+Shadow University Program :
+- sélection au SUP
+
+
+Tank tactics :
+- présentation du jeu et lien vers le bot
+
+Game jams :
+- jeux itch.io avec embed
+
+Old stuff :
+ - lien vers jimdo
