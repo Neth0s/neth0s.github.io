@@ -1,9 +1,8 @@
 to do:
-images plus petites (pas carré)
-texte "contact" en blanc
-texte navbar plus gros
+choisir langue (EN/FR)
 
-ajouter bio homepage
 ajouter description cards
+ajouter bio homepage
+formater contenu pages annexes
 ajouter contenu pages annexes
 update CV
