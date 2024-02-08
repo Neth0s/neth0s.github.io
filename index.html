@@ -32,8 +32,10 @@
 
 <script type="text/javascript">
     var userLang = navigator.language;
-    window.location.replace("" + "/en");
+	
     if (userLang.includes("{{ lang.fr }}")) {
         window.location.replace("" + "/fr");
-    }
+    } else {
+	    window.location.replace("" + "/en");
+	}
 </script>
