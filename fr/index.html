@@ -6,12 +6,14 @@
     <meta name="description" content="Portfolio">
     <meta name="author" content="Nethos">
     <meta name="generator" content="Bootstrap">
-    <title>Mon Portfolio · Home</title>
+    <title>Clémence MS · Portfolio</title>
 
     <!-- Bootstrap core CSS -->
-	  <link rel="stylesheet" href="../css/bootstrap.css">
-	  <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- Custom styles for this template -->
     <link rel="stylesheet" href="../css/style.css">
+	<!-- Bootstrap icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <style>
       .bd-placeholder-img {
@@ -31,21 +33,18 @@
   </head>
 
   <body>  
-<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+<nav class="navbar navbar-expand navbar-dark bg-dark mb-4">
   <div class="container-fluid">
-    
     <a class="navbar-brand fs-4" href="">Portfolio</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
     
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
-        <a class="nav-link active fs-4" aria-current="page" href="">Home</a>
-        <a class="nav-link fs-4" href="https://drive.google.com/file/d/1dwwA50zEgtaJvOxEN8YeJ7wzIIjrhYNN/view?usp=sharing">CV</a>
+        <a class="nav-link active fs-5" aria-current="page" href="">Accueil</a>
+        <a class="nav-link fs-5" href="">Contact</a>
+        <a class="nav-link fs-5" href="https://drive.google.com/file/d/1eWA2xFAp5IZCtNwcsdJ2HoYtHuv0v57j/view?usp=sharing">CV</a>
       </ul>
       <a class="nav-link link-light fs-5" href="../en/index.html">English</a>
-      <span class="navbar-text">|</span> 
+      <span class="navbar-text">|</span>
       <a class="nav-link text-light fs-5" href="">Français</a>
     </div>
 
@@ -54,24 +53,59 @@
 
 <main>
 
-  <section class="py-5 text-center container">
-        <h1 class="display-3 fw-light mb-5">Bienvenue!</h1>
-        <h3 class="fw-normal">Je m'appelle <strong>Clémence Meredith-Smith</strong>, élève ingénieure en 3e année à <strong>Télécom SudParis</strong> dans la spécialité <strong><a href="https://jin.telecom-sudparis.eu/">JIN - Jeu Vidéo, Interactions et collaborations Numériques</a></strong>.<br><br>
-        Passionnée de jeux vidéo et de game design, j'ai commencé à créer des jeux au collège, avant de rejoindre le club de création de jeux de mon école. En parallèle des compétences techniques que j'ai acquises durant mon cursus, mes projets personnels m'ont permis d'avoir de l'expérience en design. Voici les projets dont je suis la plus fière.</h3>
+  <section class="py-4 text-center container">
+        <h1 class="display-4">Clémence Meredith-Smith</h1>
+        <h2><strong>Game designeuse & Programmeuse</strong></h2><br>
+        <h4 class="fw-normal">Ayant un grand attrait pour la création de jeux, j'ai commencé à en faire dès mon collège. 
+		En plus de mon goût pour l'informatique et les sciences, j'ai découvert le domaine du game design. Cela m'a mené à faire
+		mes études à <strong>Télécom SudParis</strong>, une école d'ingénieur du numérique, dans laquelle je me suis spécialisée
+		en <strong>développement de jeux vidéo et intéractions numériques</strong>.<br><br>
+		En parallèle des compétences techniques que j'ai acquises durant mon cursus, mes projets personnels m'ont permis d'avoir de 
+		l'expérience en design. Voici les projets dont je suis la plus fière.</h4><br>
+		<h4>Liens vers mes jeux et leurs dépôts:</h4>
+		<h3>
+		  <ul class="list-inline my-0">
+		    <li class="list-inline-item">
+				<a class="icon-link" href="https://nethos.itch.io/"><img src="../img/itch.svg" alt="Bootstrap" width="36" height="36">Itch.io</img></a>
+			</li>
+			<li class="list-inline-item">
+				<a class="icon-link" href="https://github.com/Neth0s"><i class="bi bi-github"></i>Github</a>
+			</li>
+			<li class="list-inline-item">
+				<a class="icon-link" href="https://gitlab.com/neth0s"><i class="bi bi-gitlab"></i>Gitlab</a>
+			</li>
+		  </ul>
+		</h3>
   </section>
 
   <div class="album py-5">
     <div class="container">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
+		<div class="col">
+          <div class="card shadow-sm">
+            <img src="../img/apothecary/cover.png" class="card-img-top" alt="Apothecary's Oath logo">
+            <div class="card-body text-center">
+
+              <h5 class="card-title">Apothecary's Oath</h5>
+              <h6 class="card-subtitle mb-2 text-muted">2022-2023</h6>
+              <p class="card-text">Mon projet de fin d'études :<br>un jeu de potion-craft en VR</p>
+              <div class="d-grid gap-2">
+                <a href="apothecary.html" class="btn btn-primary">Voir</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
         <div class="col">
           <div class="card shadow-sm">
-            <img src="../img/itchio.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              
-              <h5 class="card-title text-center">Game Jams</h5>
-              <h6 class="card-subtitle mb-2 text-muted text-center">2018-Présent</h6>
-              <p class="card-text text-center">Jeux créés durant des évènements de 48h selon des thèmes spécifiques.</p>
+            <img src="../img/jam/brackeys-2021-logo.png" class="card-img-top" alt="brackeys 2021 game jam logo">
+            <div class="card-body text-center">
+
+              <h5 class="card-title">Game Jams</h5>
+              <h6 class="card-subtitle mb-2 text-muted">2018-Présent</h6>
+              <p class="card-text">Des jeux créés durant des évènements de 48h selon des thèmes spécifiques.</p>
               <div class="d-grid gap-2">
                 <a href="game-jams.html" class="btn btn-primary">Voir</a>
               </div>
@@ -79,17 +113,33 @@
             </div>
           </div>
         </div>
-
-        <div class="col">
+		
+		<div class="col">
           <div class="card shadow-sm">
-          	<img src="../img/logo-CELL.png" class="card-img-top" alt="...">
-            <div class="card-body">
-            	
-              <h5 class="card-title text-center">Enseigner le Game Design</h5>
-            	<h6 class="card-subtitle mb-2 text-muted text-center">2019-2020</h6>
-              <p class="card-text text-center">Les formations sur des domaines particuliers de game design que j'ai réalisées au sein du CELL.</p>
+            <img src="../img/board/table.jpg" class="card-img-top" alt="photo of a board game">
+            <div class="card-body text-center">
+
+              <h5 class="card-title">Jeux de société</h5>
+              <h6 class="card-subtitle mb-2 text-muted">2023-2024</h6>
+              <p class="card-text">Les jeux de société que j'ai réalisé durant des évènements dédiés.</p>
               <div class="d-grid gap-2">
-              	<a href="game-design.html" class="btn btn-primary">Voir</a>
+                <a href="board-games.html" class="btn btn-primary">Voir</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+		
+		<div class="col">
+          <div class="card shadow-sm">
+            <img src="../img/pur/promo.png" class="card-img-top">
+            <div class="card-body text-center">
+
+              <h5 class="card-title">Juniper Jupiters</h5>
+              <h6 class="card-subtitle mb-2 text-muted">2021</h6>
+              <p class="card-text">Un metroidvania avec de la gravité inspirée des Mario Galaxy créé avec Unreal Engine 4. (Projet scolaire)</p>
+              <div class="d-grid gap-2">
+                <a href="pur.html" class="btn btn-primary">Voir</a>
               </div>
 
             </div>
@@ -98,44 +148,44 @@
 
         <div class="col">
           <div class="card shadow-sm">
-            <img src="../img/eg/lock2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
+            <img src="../img/logo-CELL.png" class="card-img-top" alt="CELL club logo">
+            <div class="card-body text-center">
+
+              <h5 class="card-title">Enseigner le Game Design</h5>
+              <h6 class="card-subtitle mb-2 text-muted">2019-2020</h6>
+              <p class="card-text">Les formations sur des domaines particuliers de game design que j'ai réalisées au sein du CELL.</p>
+              <div class="d-grid gap-2">
+                <a href="game-design.html" class="btn btn-primary">Voir</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../img/escape/lock2.jpg" class="card-img-top" alt="lock">
+            <div class="card-body text-center">
+
+              <h5 class="card-title">Escape Games</h5>
+              <h6 class="card-subtitle mb-2 text-muted">2018-2020</h6>
+              <p class="card-text">Les escape games que j'ai créés avec le club de création de jeux de mon école.</p>
+              <div class="d-grid gap-2">
+                <a href="escape-game.html" class="btn btn-primary">Voir</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+		<div class="col">
+          <div class="card shadow-sm">
+            <img src="../img/rpg-java/capture1.png" class="card-img-top">
+            <div class="card-body text-center">
               
-              <h5 class="card-title text-center">Escape Games</h5>
-              <h6 class="card-subtitle mb-2 text-muted text-center">2018-2020</h6>
-              <p class="card-text text-center">Les escape games que j'ai créés avec le club de création de jeux de mon école.</p>
-              <div class="d-grid gap-2">
-              	<a href="escape-game.html" class="btn btn-primary">Voir</a>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="../img/pur/tree-large.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              
-              <h5 class="card-title text-center">Juniper Jupiters</h5>
-              <h6 class="card-subtitle mb-2 text-muted text-center">2021</h6>
-              <p class="card-text text-center">Un metroidvania avec de la gravité inspirée des Mario Galaxy créé avec Unreal Engine 4. (Projet scolaire)</p>
-              <div class="d-grid gap-2">
-              	<a href="pur.html" class="btn btn-primary">Voir</a>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="../img/rpg-java/capture1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-
-              <h5 class="card-title text-center">Project: RPG</h5>
-              <h6 class="card-subtitle mb-2 text-muted text-center">2019</h6>
-              <p class="card-text text-center">Sauvez le monde dans cet Action RPG codé en Java avec un moteur de jeu fait maison. (Projet scolaire)</p>
+              <h5 class="card-title">Project: RPG</h5>
+              <h6 class="card-subtitle mb-2 text-muted">2019</h6>
+              <p class="card-text">Sauvez le monde dans cet Action RPG codé en Java avec un moteur de jeu fait maison. (Projet scolaire)</p>
               <div class="d-grid gap-2">
               	<a href="project-rpg.html" class="btn btn-primary">Voir</a>
               </div>
@@ -143,15 +193,15 @@
             </div>
           </div>
         </div>
-
-        <div class="col">
+		
+		<div class="col">
           <div class="card shadow-sm">
-            <img src="../img/lbp/learn-by-play.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              
-              <h5 class="card-title text-center">Learn By Play</h5>
-              <h6 class="card-subtitle mb-2 text-muted text-center">2018-2019</h6>
-              <p class="card-text text-center">Project d'aide scolaire via des jeux éducatifs pour des enfants en primaire à Evry. (Projet scolaire)</p>
+            <img src="../img/lbp/learn-by-play.png" class="card-img-top" alt="learn by play logo">
+            <div class="card-body text-center">
+
+              <h5 class="card-title">Learn By Play</h5>
+              <h6 class="card-subtitle mb-2 text-muted">2018-2019</h6>
+              <p class="card-text">Project d'aide scolaire via des jeux éducatifs pour des enfants en primaire à Evry. (Projet scolaire)</p>
               <div class="d-grid gap-2">
               	<a href="learn-by-play.html" class="btn btn-primary">Voir</a>
               </div>
@@ -159,15 +209,15 @@
             </div>
           </div>
         </div>
-
+		
         <div class="col">
           <div class="card shadow-sm">
-            <img src="../img/tt/tt-bot.png" class="card-img-top" alt="...">
-            <div class="card-body">
+            <img src="../img/tt/tt-bot.png" class="card-img-top" alt="tank tactics bot logo">
+            <div class="card-body text-center">
 
-              <h5 class="card-title text-center">Tank Tactics</h5>
-              <h6 class="card-subtitle mb-2 text-muted text-center">2020-2021</h6>
-              <p class="card-text text-center">Tank Tactics est un bot de jeu Discord pour un jeu de stratégie multijoueur au tour par tour.</p>
+              <h5 class="card-title">Tank Tactics</h5>
+              <h6 class="card-subtitle mb-2 text-muted">2020-2021</h6>
+              <p class="card-text">Tank Tactics est un bot de jeu Discord pour un jeu de stratégie multijoueur au tour par tour.</p>
               <div class="d-grid gap-2">
                 <a href="tank-tactics.html" class="btn btn-primary">Voir</a>
               </div>
@@ -176,58 +226,54 @@
           </div>
         </div>
 
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="../img/sup/shadow-uni-prog.png" class="card-img-top" alt="...">
-            <div class="card-body">
-
-              <h5 class="card-title text-center">Shadow University Program</h5>
-              <h6 class="card-subtitle mb-2 text-muted text-center">2018</h6>
-              <p class="card-text text-center">Un RPG réalisé en une semaine qui a permis au club Gam'INT d'être sponsorisé par Shadow.</p>
-              <div class="d-grid gap-2">
-                <a href="shadow-university-program.html" class="btn btn-primary">Voir</a>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="../img/IG-logo.png" class="card-img-top" alt="...">
-            <div class="card-body">
-            	
-              <h5 class="card-title text-center">Anciennes créations</h5>
-            	<h6 class="card-subtitle mb-2 text-muted text-center">2013-2017</h6>
-              <p class="card-text text-center">Des jeux créés pendant mon collège et lycée, avec RPG Maker et Game Maker pour la plupart.</p>
-              <div class="d-grid gap-2">
-              	<a href="https://infinitygamesms.jimdofree.com/" class="btn btn-primary">Voir</a>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-
       </div>
     </div>
   </div>
-
+  
+  <div class="container">
+	<div class="row">
+	  <div class="col-3 p-3 mb-2"></div>
+      <div class="col">
+		<div class="card mb-3 text-center" style="max-width: 600px;">
+			<h5 class="card-header">Archive<small class="text-muted"> (2013-2018)</small></h5>
+			<div class="card-body">
+			  <p class="card-text">Des jeux créés entre le collège et la prépa,<br> avec RPG Maker et Game Maker pour la plupart.</p>
+			  <a href="https://infinitygamesms.jimdofree.com/" class="btn btn-primary">Voir</a>
+			</div>
+		</div>
+	  </div>
+	  <div class="col-3 p-3 mb-2"></div>
+	</div>
+  </div>
+  
 </main>
 
-<footer class="text-muted py-5">
+<footer class="text-muted py-4">
   <div class="container">
-    <p class="float-end mb-1">
-      <a class="nav-link link-light fs-5" href="">Retour en haut</a>
-    </p>
-    <p class="mb-1 text-white fs-5">Contact :
-      <a class="text-decoration-none" href="mailto:clemence.meredith-smith@telecom-sudparis.eu">
-      clemence.meredith-smith@telecom-sudparis.eu</a>
-    </p>
+	<ul class="list-inline fs-5 my-0">
+		<li class="list-inline-item">
+			<p class="text-white">Contact :</p>
+		</li>
+		<li class="list-inline-item">
+			<a class="text-decoration-none link-light" href="mailto:clemence.m-smith@protonmail.com"><i class="bi bi-envelope"></i> Mail</a>
+		</li>
+		<li class="list-inline-item">
+			<a class="text-decoration-none link-light" href="https://www.linkedin.com/in/cl%C3%A9mence-meredith-smith/"><i class="bi bi-linkedin"></i> LinkedIn</a>
+		</li>
+		<li class="list-inline-item">
+			<a class="text-decoration-none link-light" href="https://github.com/Neth0s"><i class="bi bi-github"></i></i> Github</a>
+		</li>
+		<li class="list-inline-item">
+			<a class="text-decoration-none link-light" href="https://gitlab.com/neth0s"><i class="bi bi-gitlab"></i></i> Gitlab</a>
+		</li>
+		<li class="float-end mb-1">
+			<a class="nav-link link-light fs-5" href="">Retour en haut <i class="bi bi-caret-up-square"></i></a>
+		</li>
+	  </ul>
   </div>
 </footer>
 
-    <script src="..js/bootstrap.js"></script>
+    <script src="../js/bootstrap.js"></script>
 
   </body>
 </html>
